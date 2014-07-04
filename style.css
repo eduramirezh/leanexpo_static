@@ -1,0 +1,28 @@
+body {
+  background-color: #111;
+}
+.left {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+  width: 50%;
+}
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 35%;
+}
+@media screen and (max-width: 480px) {
+  .left, 
+  .right {
+    float: none;
+    width: auto;
+  }
+}
