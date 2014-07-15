@@ -1,16 +1,113 @@
 <!DOCTYPE html>
-<html itemscope itemtype='http://schema.org/WebPage' xmlns:fb='https://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="group">
-      <div class="left">
-        <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_900,w_1200/rql9dmdkxcboeznp2f7j.png" alt="" />
-      </div>
-       <div class="right">
-        <p>leanexpo</p>
-      </div>
-   </div>
-  </body>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>leanexpo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/boostrap.min.css">
+    <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,400italic,600italic" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+
+            <div id="preload">
+               <img src="img/bcg_slide-5.jpg">
+           </div>
+
+           <main>
+
+               <section id="slide-1" class="homeSlide">
+                  <div class="bcg" 
+                  data-center="background-position: 50% 0px;" 
+                  data-top-bottom="background-position: 50% -100px;" 
+                  data-anchor-target="#slide-1"
+                  >
+                  <div class="hsContainer">
+                   <div class="hsContent" data-center="bottom: 200px; opacity: 1; left: 30%;" data-top="bottom: 1200px; opacity: 0; left: 32%;" data-anchor-target="#slide-1 img ">
+                      <img style="width:100%;" src="img/logo-42.png">
+                      <a href="#slide4" class="flecha"></a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="slide-4" class="homeSlide">
+        <div class="bcg" 
+        data-center="background-position: 50% 0px;" 
+        data-top-bottom="background-position: 50% -100px;" 
+        data-bottom-top="background-position: 50% 100px;" 
+        data-anchor-target="#slide-4"
+        >
+        <div class="hsContainer">
+          <div class="hsContent" 
+          data-bottom-top="opacity: 0" 
+          data-75p-top="opacity: 0" 
+          data-top="opacity: 1"  
+          data-anchor-target="#slide-4"
+          >
+          <div>
+             <div class="col-md-12">
+                <h1 class="titulo nomargin" style="text-align:left;" >CONTACTO</h1>
+            </div>
+            <form class="signup form-horizontal">
+                <div class="row nomargin">
+                    <div class="col-md-6" style="padding-left: 0;">
+                        <input id="name" type="text" name="name" placeholder="NOMBRE" class="form-control inputbox" autofocus/>
+                    </div>
+                    <div class="col-md-6" style="padding-right: 0;">
+                        <input id="name" type="text" name="name" placeholder="APELLIDO" class="form-control inputbox"/>
+                    </div>
+                </div>
+                <div class="form-group nomargin">
+                    <div class="col-md-12 nomargin">
+                        <input id="email" type="email" name="email" placeholder="E-MAIL" class="form-control inputbox"/>
+                    </div>
+                </div>
+                <div class="form-group nomargin">
+                    <div class="col-md-12 nomargin">
+                        <input id="asunto" type="text" name="asunto" placeholder="ASUNTO" class="form-control inputbox"/>
+                    </div>
+                </div>
+                <div class="form-group nomargin">
+                    <div class="col-md-12 nomargin">
+                        <textarea class="inputmesege" data-ng-model="message" placeholder="MENSAJE"></textarea>
+                    </div>
+                </div>
+                <div class="form-group nomargin" style="margin-top:20px !important;"> 
+                    <!-- <button class="btn singup-btn-cancel">Cancelar</button> -->
+                    <button type="submit" class="btn singup-btn" >ENVIAR</button>
+                </div>
+                <div class="form-group nomargin" style="margin-top:30px !important;">
+                    <img style="margin:auto;display:block;" src="img/leanexpo-20.png"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
+
+</main>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/imagesloaded.js"></script>
+<script src="js/enquire.min.js"></script>
+<script src="js/skrollr.js"></script>
+<script src="js/_main.js"></script>
+
+</body>
 </html>
