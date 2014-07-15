@@ -1,0 +1,292 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family:"Arvo";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Arvo";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: Oswald;
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+/*#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 30px;
+}
+
+#nav { width: 410px; float: right; margin-top: 20px; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }*/
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+/*.quotes {   
+ font-family: 'Goudy Bookletter 1911', serif;
+   font-weight: normal;
+   font-size: 30px;
+  text-align: left;
+  margin: 50px auto;
+}
+   
+ .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
+ .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
+ .quotes_container { width: 800px; margin: 0 auto; }
+#christmas_tree { background: url('../img/logo-42.png')no-repeat; width: 640px; height: 190px; margin: 0 auto; position: relative; bottom: -35px;}
+#divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
+#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
+#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -54px; left: -102px; }
+#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }
+
+*/
+
+/*= BUTTONS
+--------------------------------------------------------*/
+
+/*button.btn-know { 
+	padding: 15px 47px; 
+	margin: 40px 38.8%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 19px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn-know:hover { background: #fff; color: transparent; }
+ul.built { list-style: none; margin: 0 auto; width: 730px; }
+.built li img{ float: left; padding-right: 34px; }
+*/
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+#slide1{
+	background:url('../img/slide-1.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 700px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: 700px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+	/*padding: 200px 0;*/
+}
+
+/*#slide3{
+	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	padding: 170px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background-color: #fff;
+	color: #333333;
+	height: 300px;
+	padding: 200px 0;
+}
+
+#slide5{
+	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}*/
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }
+
+ /* MIIIII SING UP */
+.form {
+	width: 450px;
+	margin: auto;
+}
+.inputbox {
+  height: 55px !important;
+  background: #eaeaea !important;
+  margin-top: 8px !important;
+  padding-left: 10px !important;
+  border-radius: 0 !important;
+  border: none !important;
+  padding-left: 4px;
+  -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.0) !important;
+  box-shadow: inset 0 0 0 rgba(0,0,0,.0) !important;
+  font-family:'Source Sans Pro', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color:#111 !important;
+}
+.inputmesege {
+  height: 155px !important;
+  background: #eaeaea !important;
+  margin-top: 8px !important;
+  padding-left: 10px !important;
+  border-radius: 0 !important;
+  border: none !important;
+  padding-left: 4px;
+  -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,.0) !important;
+  box-shadow: inset 0 0 0 rgba(0,0,0,.0) !important;
+  font-family:'Source Sans Pro', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  color:#111 !important;
+  width: 100%;
+}
+.singup-btn {
+  background: #006699 !important;
+  color:#fff !important;
+  height: 40px !important;
+  width: 120px !important;
+  float: right !important;
+  border-radius: 0 !important;
+  border: none !important;
+  text-transform: uppercase !important;
+}
+.singup-btn:hover, .singup-btn:focus {
+  background: #0099cc !important;
+  color:#fff !important;
+}
+.singup-btn-cancel {
+  background: #fff !important;
+  color:#333 !important;
+  width: 120px !important;
+  height: 40px !important;
+  margin-left: 36% !important;
+  border-radius: 0 !important;
+  border: 2px solid #eaeaea !important;
+  text-transform: uppercase !important;
+}
+.singup-btn-cancel:hover, .singup-btn-cancel:focus {
+  background: #eaeaea !important;
+  color:#333 !important;
+}
+h1.titulo{
+    font-family:'Source Sans Pro', sans-serif !important;
+  margin: 0 0 20px 0 !important;
+  font-size:20px !important;
+  letter-spacing: 6px !important; 
+  font-weight:600 !important;
+  text-align:center !important;
+  padding-top: 20px !important;
+  color:#111 !important;
+  text-transform: uppercase !important;
+}
+.nomargin {
+  margin:0 0 !important;
+  padding: 0 0 !important;
+}
+.flecha {
+	display: block; 
+	position: relative; 
+	top: 140px;
+	left: 50%;
+	background: none;
+	border: none;
+}
+.flechatop {
+	display: block;
+	position: absolute;
+	top: 1320px;
+	left: 87%;
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	background: none;
+	border:none;
+}
+.logo {
+	background: url('../img/logo-42.png')no-repeat; 
+	width: 640px; 
+	height: 190px; 
+	margin: 0 auto;
+	position: relative; 
+	bottom: -35px;
+}
