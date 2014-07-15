@@ -542,9 +542,10 @@ h1.titulo{
 }
 .flecha {
     display: block;
-background: url(../img/flecha-43.png) no-repeat;
+/*background: url(../img/flecha-43.png) no-repeat;*/
 position: relative;
 left: 50%;
 height: 80px;
 width: 80px;
+z-index: 20;
 }
